@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.password-select {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#result2 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green; }
+
+    #result2.incorrecto {
+        color: red;}

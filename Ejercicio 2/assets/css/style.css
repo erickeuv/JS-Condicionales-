@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.sticker-container {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
