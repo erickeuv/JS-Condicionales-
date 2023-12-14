@@ -10,12 +10,4 @@ body {
 }
 
 #imagenClick {
-    display: block;
-    margin: 0 auto;
-    cursor: pointer;
-    transition: border 0.3s ease;
-}
-
-#imagenClick:hover {
-    border: 2px solid red;
-}
+    cursor: pointer; }

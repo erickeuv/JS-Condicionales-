@@ -1,14 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    var imagen = document.getElementById("imagenClick");
+let img = document.getElementById("imagenClick")
 
-    imagen.addEventListener("click", function() {
-
-        var tieneBorde = imagen.style.border === "2px solid red";
-
-        if (tieneBorde) {
-            imagen.style.border = "none";
-        } else {
-            imagen.style.border = "2px solid red";
-        }
-    });
-});
+img.addEventListener("click", function(){
+    let borde= img.style.border === "none"
+if (borde){
+    img.style.border = "2px solid red"}
+    else  {
+        img.style.border = "none"
+    }
+   
+}
+)
