@@ -1,20 +1,28 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    margin-top: 30%;
+  
+    
 }
+
+.stickers-blox{
+    display: flex;
+    justify-content: center;
+
+}   
 
 .sticker-container {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
 }
 
 img {
-    width: 200px;
+    width: 250px;
 }
 
-label {
-    margin-left: 10px;
-}
 
 button {
     padding: 10px;

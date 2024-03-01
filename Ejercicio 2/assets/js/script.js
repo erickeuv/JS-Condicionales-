@@ -1,7 +1,7 @@
 function comprarStickers() {
-    var cantidadSticker1 = parseInt(document.getElementById("sticker1").value) || 0;
-    var cantidadSticker2 = parseInt(document.getElementById("sticker2").value) || 0;
-    var cantidadSticker3 = parseInt(document.getElementById("sticker3").value) || 0;
+    var cantidadSticker1 = (document.getElementById("sticker1").value) || 0;
+    var cantidadSticker2 = (document.getElementById("sticker2").value) || 0;
+    var cantidadSticker3 = (document.getElementById("sticker3").value) || 0;
 
     var totalStickers = cantidadSticker1 + cantidadSticker2 + cantidadSticker3;
 
